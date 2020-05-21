@@ -100,6 +100,30 @@ body {
 .jumbotron {
   text-align: center;
   margin-bottom: 0;
+  animation: color-change-5x 10s linear infinite alternate both;
+}
+
+@keyframes color-change-5x {
+  0% {
+    background: #19dcea;
+    color: black;
+  }
+  25% {
+    background: #f5be10;
+    color: black;
+  }
+  50% {
+    background: #e63946;
+    color: white;
+  }
+  75% {
+    background: #b22cff;
+    color: white;
+  }
+  100% {
+    background: #3bd80d;
+    color: white;
+  }
 }
 
 .jumbotron .container {
@@ -109,22 +133,29 @@ body {
 /* Portfolio */
 .portfolio {
   padding: 50px;
-  background-color: pink;
+  background-color: #457b9d;
 }
 
 /* About */
 .about {
-  background-color: lightgreen;
+  background-color: #a8dadc;
   padding: 50px;
 }
 
 /* Skills */
 .skills {
   padding: 50px;
-  background-color: aqua;
+  background-color: #f1faee;
+  text-align: center;
+}
+
+.fab {
+  font-size: 32px;
+  padding: 10px;
 }
 /* Contact */
 footer {
-  background-color: yellow;
+  background-color: #1d3557;
+  color: #fff;
   padding: 50px;
 }

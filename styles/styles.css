@@ -87,6 +87,67 @@ ul.typographic {
 }
 
 /* My CSS */
+/* Animations */
+
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.swing:hover {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
 
 body {
   font-family: 'DM Mono', monospace;
@@ -95,6 +156,7 @@ body {
 /* Nav */
 .navbar {
   padding: 20px;
+  background-color: #f1faee;
 }
 /* Jumbotron */
 .jumbotron {
@@ -130,6 +192,10 @@ body {
   padding: 100px;
 }
 
+.btn-success {
+  font-size: 12px;
+}
+
 /* Portfolio */
 .portfolio {
   padding: 50px;
@@ -150,7 +216,7 @@ body {
 }
 
 .fab {
-  font-size: 32px;
+  font-size: 50px;
   padding: 10px;
 }
 /* Contact */
@@ -158,4 +224,8 @@ footer {
   background-color: #1d3557;
   color: #fff;
   padding: 50px;
+}
+
+footer .fab {
+  font-size: 35px;
 }

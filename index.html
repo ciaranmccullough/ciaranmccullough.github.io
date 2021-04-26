@@ -1,642 +1,729 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <!-- Styles -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <!-- Scripts -->
-    <script
-      src="https://kit.fontawesome.com/c0650d5fea.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-      defer
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-      defer
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-      defer
-    ></script>
-    <script src="scripts/main.js" defer></script>
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <!-- Nav -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Ciaran</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <!-- Styles -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="styles/styles.css" />
+        <!-- Scripts -->
+        <script
+            src="https://kit.fontawesome.com/c0650d5fea.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"
+        />
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+            defer
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+            defer
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+            defer
+        ></script>
+        <script src="scripts/main.js" defer></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <!-- Nav -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Ciaran</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <!-- About -->
-      <section id="about" class="about">
-        <div class="media">
-          <img
-            class="about-image"
-            src="/img/me.JPG"
-            alt="profile-image"
-            class="mr-3"
-          />
-          <div class="media-body">
-            <h2 class="mt-0">About Me</h2>
-            <p>
-              Hi I'm Ciaran and I'm a web developer based in London. Check out
-              some of my recent projects below ⬇️
-            </p>
-            <p>
-              Outside of work you can find me captaining my weeknight football 5
-              aside team, or seeing live music (soon hopefully!)
-            </p>
-            <a href="#portfolio"
-              ><button type="button" class="btn btn-primary">
-                Portfolio Below
-              </button></a
-            >
-          </div>
-        </div>
-      </section>
-      <!-- Portfolio  -->
-      <section id="portfolio" class="portfolio">
-        <h2 class="text-white">Portfolio</h2>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- About -->
+            <section id="about" class="about">
+                <div class="media">
+                    <img
+                        class="about-image"
+                        src="/img/me.JPG"
+                        alt="profile-image"
+                        class="mr-3"
+                    />
+                    <div class="media-body">
+                        <h2 class="mt-0">About Me</h2>
+                        <p>
+                            Hi I'm Ciaran and I'm a web developer based in
+                            London. Check out some of my recent projects below
+                            ⬇️
+                        </p>
+                        <p>
+                            Outside of work you can find me captaining my
+                            weeknight football 5 aside team, or seeing live
+                            music (soon hopefully!)
+                        </p>
+                        <a href="#portfolio"
+                            ><button type="button" class="btn btn-primary">
+                                Portfolio Below
+                            </button></a
+                        >
+                    </div>
+                </div>
+            </section>
+            <!-- Portfolio  -->
+            <section id="portfolio" class="portfolio">
+                <h2 class="text-white">Portfolio</h2>
 
-        <div class="row row-cols-1 row-cols-md-3">
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <img
-                src="img/react-app-preview.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h3 class="card-title">Fullstack React App</h3>
-                <p class="card-text">
-                  A fullstack <code>React</code> application built with
-                  <code>Node/Express</code> server and
-                  <code>MongoDB</code> database. The user creates a library, and
-                  then uses CRUD functionality to add/update/delete books to
-                  that library. Deployed and hosted on <code>Heroku</code>.
-                </p>
-                <a
-                  href="https://fullstack-react-library-app.herokuapp.com/"
-                  class="btn btn-success"
-                  >Check It Out</a
-                >
-                <p>
-                  Code:
-                  <a
-                    href="https://github.com/ciaranmccullough/fullstack-react-app"
-                    >https://github.com/ciaranmccullough/fullstack-react-app</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <img
-                src="img/listings-preview.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h3 class="card-title">Serverless React App</h3>
-                <p class="card-text">
-                  A listings app for music venues to book bands, and add them to
-                  thier listings. Created with <code>React</code> hooks,
-                  <code>React router</code>, and using
-                  <code>Material UI</code> for UI design and styling. The app
-                  has a database hosted on <code>Google Firebase</code> enabling
-                  realtime updates and persistence, and is hosted using
-                  <code>Netlify's</code> serverless integration.
-                </p>
-                <a
-                  href="https://inspiring-booth-3cac72.netlify.app/"
-                  class="btn btn-success"
-                  >Check It Out</a
-                >
-                <p>
-                  Code:
-                  <a href="https://github.com/ciaranmccullough/listings-app"
-                    >https://github.com/ciaranmccullough/listings-app</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <img
-                src="img/gatsby-preview.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h3 class="card-title">Gatsby App w/ Wordpress API</h3>
-                <p class="card-text">
-                  A blazing-fast statically generated web app using
-                  <code>Gatsby</code> pulling data from
-                  <code>Wordpress</code> API via a
-                  <code>GraphQL</code> endpoint. The pages and data are rendered
-                  using static queries and the app is styled using
-                  <code>React Styled Components</code> and <code>Sass</code> and
-                  the form validated w/ <code>Formik</code>
-                </p>
-                <a href="https://phoenixkarate.net" class="btn btn-success"
-                  >Check It Out</a
-                >
-                <p>
-                  Code:
-                  <a href="https://github.com/ciaranmccullough/phoenix-karate"
-                    >https://github.com/ciaranmccullough/phoenix-karate</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-        </div>
-        <div class="row row-cols-1 row-cols-md-3">
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/graph-preview.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h3 class="card-title">nvd3 Graph Real Time</h3>
-                <p class="card-text">
-                  A nvd3 graph utilising <code>Node Js</code>, and hosted on a
-                  <code>Firebase</code> real-time database.
-                </p>
-                <a
-                  href="https://ciaranmccullough.github.io/realtime-firebase-nvd3/"
-                  class="btn btn-success"
-                  >Check It Out</a
-                >
-                <p>
-                  Code:
-                  <a
-                    href="https://github.com/ciaranmccullough/realtime-firebase-nvd3"
-                    >https://github.com/ciaranmccullough/realtime-firebase-nvd3</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <p
-                class="codepen"
-                data-height="265"
-                data-theme-id="default"
-                data-default-tab="result"
-                data-user="ciaran-mc"
-                data-slug-hash="pogjyPK"
-                style="
-                  height: 265px;
-                  box-sizing: border-box;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  border: 2px solid;
-                  margin: 1em 0;
-                  padding: 1em;
-                "
-                data-pen-title="React Weather App w/ geolocation"
-              >
-                <span
-                  >See the Pen
-                  <a href="https://codepen.io/ciaran-mc/pen/pogjyPK">
-                    React Weather App w/ geolocation</a
-                  >
-                  by Ciaran-Mc (<a href="https://codepen.io/ciaran-mc"
-                    >@ciaran-mc</a
-                  >) on <a href="https://codepen.io">CodePen</a>.</span
-                >
-              </p>
-              <script
-                async
-                src="https://static.codepen.io/assets/embed/ei.js"
-              ></script>
-              <div class="card-body">
-                <h3 class="card-title">React App w/ geolocation</h3>
-                <p class="card-text">
-                  Built with <code>React</code> Js, the geolocation api
-                  automatically finds the user's position to render an eight day
-                  weather report.
-                </p>
-                <a
-                  href="https://codepen.io/ciaran-mc/pen/pogjyPK?editors=0010"
-                  class="btn btn-success"
-                  >Check It Out</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <p
-                class="codepen"
-                data-height="265"
-                data-theme-id="light"
-                data-default-tab="result"
-                data-user="ciaran-mc"
-                data-slug-hash="oNzrNrQ"
-                style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
-                data-pen-title="GSAP DEMO"
-              >
-                <span
-                  >See the Pen
-                  <a href="https://codepen.io/ciaran-mc/pen/oNzrNrQ">
-                    GSAP DEMO</a
-                  >
-                  by Ciaran-Mc (<a href="https://codepen.io/ciaran-mc"
-                    >@ciaran-mc</a
-                  >) on <a href="https://codepen.io">CodePen</a>.</span
-                >
-              </p>
-              <script
-                async
-                src="https://cpwebassets.codepen.io/assets/embed/ei.js"
-              ></script>
-              <div class="card-body">
-                <h3 class="card-title">Greensock Demo</h3>
-                <p class="card-text">
-                  Using the <code>GSAP</code> API to create animations with
-                  <code>JavaScript</code>, to take advantage of chaining the
-                  order of animations, events and better performance over basic
-                  <code>CSS</code> animations.
-                </p>
-                <a
-                  href="https://codepen.io/ciaran-mc/pen/oNzrNrQ"
-                  class="btn btn-success"
-                  >Check It Out</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-        </div>
-        <div class="row row-cols-1 row-cols-md-3">
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <p
-                class="codepen"
-                data-height="265"
-                data-theme-id="default"
-                data-default-tab="result"
-                data-user="ciaran-mc"
-                data-slug-hash="yLYvPby"
-                style="
-                  height: 265px;
-                  box-sizing: border-box;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  border: 2px solid;
-                  margin: 1em 0;
-                  padding: 1em;
-                "
-                data-pen-title="Current Weather API"
-              >
-                <span
-                  >See the Pen
-                  <a href="https://codepen.io/ciaran-mc/pen/yLYvPby">
-                    Current Weather API</a
-                  >
-                  by Ciaran-Mc (<a href="https://codepen.io/ciaran-mc"
-                    >@ciaran-mc</a
-                  >) on <a href="https://codepen.io">CodePen</a>.</span
-                >
-              </p>
-              <script
-                async
-                src="https://static.codepen.io/assets/embed/ei.js"
-              ></script>
-              <div class="card-body">
-                <h3 class="card-title">AJAX App</h3>
-                <p class="card-text">
-                  Using the Weather API, the user inputs data to find out the
-                  weather locally in their city & state. Written in vanilla
-                  <code>JavaScript</code>.
-                </p>
-                <a
-                  href="https://codepen.io/ciaran-mc/pen/yLYvPby"
-                  class="btn btn-success"
-                  >Check It Out</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <p
-                class="codepen"
-                data-height="265"
-                data-theme-id="default"
-                data-default-tab="result"
-                data-user="ciaran-mc"
-                data-slug-hash="mdeLqxq"
-                style="
-                  height: 265px;
-                  box-sizing: border-box;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  border: 2px solid;
-                  margin: 1em 0;
-                  padding: 1em;
-                "
-                data-pen-title="Lyrics API"
-              >
-                <span
-                  >See the Pen
-                  <a href="https://codepen.io/ciaran-mc/pen/mdeLqxq">
-                    Lyrics API</a
-                  >
-                  by Ciaran-Mc (<a href="https://codepen.io/ciaran-mc"
-                    >@ciaran-mc</a
-                  >) on <a href="https://codepen.io">CodePen</a>.</span
-                >
-              </p>
-              <script
-                async
-                src="https://static.codepen.io/assets/embed/ei.js"
-              ></script>
-              <div class="card-body">
-                <h3 class="card-title">JavaScript App (API)</h3>
-                <p class="card-text">
-                  A fun application which takes user inputs to call the lyrics
-                  API, and render the resulting lyrics via the DOM. Written in
-                  vanilla <code>JavaScript</code>.
-                </p>
-                <a
-                  href="https://codepen.io/ciaran-mc/pen/mdeLqxq"
-                  class="btn btn-success"
-                  >Check It Out</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <p
-                class="codepen"
-                data-height="265"
-                data-theme-id="light"
-                data-default-tab="result"
-                data-user="ciaran-mc"
-                data-slug-hash="zYvamaL"
-                style="
-                  height: 265px;
-                  box-sizing: border-box;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  border: 2px solid;
-                  margin: 1em 0;
-                  padding: 1em;
-                "
-                data-pen-title="WorkoutsApp"
-              >
-                <span
-                  >See the Pen
-                  <a href="https://codepen.io/ciaran-mc/pen/zYvamaL">
-                    WorkoutsApp</a
-                  >
-                  by Ciaran-Mc (<a href="https://codepen.io/ciaran-mc"
-                    >@ciaran-mc</a
-                  >) on <a href="https://codepen.io">CodePen</a>.</span
-                >
-              </p>
-              <script
-                async
-                src="https://static.codepen.io/assets/embed/ei.js"
-              ></script>
-              <div class="card-body">
-                <h3 class="card-title">JavaScript DOM App</h3>
-                <p class="card-text">
-                  A 'CRUD' application designed with vanilla
-                  <code>JavaScript</code>, which adds, removes, updates and
-                  deletes user input based on thier workout choices, and
-                  calculates the total calories burned during that workout.
-                </p>
-                <a
-                  href="https://codepen.io/ciaran-mc/pen/zYvamaL"
-                  class="btn btn-success"
-                  >Check It Out</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3">
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <p
-                class="codepen"
-                data-height="265"
-                data-theme-id="light"
-                data-default-tab="js,result"
-                data-user="ciaran-mc"
-                data-slug-hash="WNrqwaK"
-                style="
-                  height: 265px;
-                  box-sizing: border-box;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  border: 2px solid;
-                  margin: 1em 0;
-                  padding: 1em;
-                "
-                data-pen-title="PP1 - Console App = Stockist"
-              >
-                <span
-                  >See the Pen
-                  <a href="https://codepen.io/ciaran-mc/pen/WNrqwaK">
-                    PP1 - Console App = Stockist</a
-                  >
-                  by Ciaran-Mc (<a href="https://codepen.io/ciaran-mc"
-                    >@ciaran-mc</a
-                  >) on <a href="https://codepen.io">CodePen</a>.</span
-                >
-              </p>
-              <script
-                async
-                src="https://static.codepen.io/assets/embed/ei.js"
-              ></script>
-              <div class="card-body">
-                <h3 class="card-title">JavaScript Console App</h3>
-                <p class="card-text">
-                  <code>JavaScript</code> app using MVC principle, that models
-                  stock and stock items, creating, reading, updating and
-                  deleting items from a stock list.
-                </p>
-                <a
-                  href="https://codepen.io/ciaran-mc/pen/WNrqwaK?editors=0010"
-                  class="btn btn-success"
-                  >Check It Out</a
-                >
-              </div>
-            </div>
-          </div>
+                <div class="row row-cols-1 row-cols-md-3">
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img
+                                src="img/react-app-preview.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h3 class="card-title">Fullstack React App</h3>
+                                <p class="card-text">
+                                    A fullstack <code>React</code> application
+                                    built with <code>Node/Express</code> server
+                                    and <code>MongoDB</code> database. The user
+                                    creates a library, and then uses CRUD
+                                    functionality to add/update/delete books to
+                                    that library. Deployed and hosted on
+                                    <code>Heroku</code>.
+                                </p>
+                                <a
+                                    href="https://fullstack-react-library-app.herokuapp.com/"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                                <p>
+                                    Code:
+                                    <a
+                                        href="https://github.com/ciaranmccullough/fullstack-react-app"
+                                        >https://github.com/ciaranmccullough/fullstack-react-app</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img
+                                src="img/listings-preview.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h3 class="card-title">Serverless React App</h3>
+                                <p class="card-text">
+                                    A listings app for music venues to book
+                                    bands, and add them to thier listings.
+                                    Created with <code>React</code> hooks,
+                                    <code>React router</code>, and using
+                                    <code>Material UI</code> for UI design and
+                                    styling. The app has a database hosted on
+                                    <code>Google Firebase</code> enabling
+                                    realtime updates and persistence, and is
+                                    hosted using
+                                    <code>Netlify's</code> serverless
+                                    integration.
+                                </p>
+                                <a
+                                    href="https://inspiring-booth-3cac72.netlify.app/"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                                <p>
+                                    Code:
+                                    <a
+                                        href="https://github.com/ciaranmccullough/listings-app"
+                                        >https://github.com/ciaranmccullough/listings-app</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img
+                                src="img/gatsby-preview.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h3 class="card-title">
+                                    Gatsby App w/ Wordpress API (Currently
+                                    undergoing work on backend!)
+                                </h3>
+                                <p class="card-text">
+                                    A blazing-fast statically generated web app
+                                    using
+                                    <code>Gatsby</code> pulling data from
+                                    <code>Wordpress</code> API via a
+                                    <code>GraphQL</code> endpoint. The pages and
+                                    data are rendered using static queries and
+                                    the app is styled using
+                                    <code>React Styled Components</code> and
+                                    <code>Sass</code> and the form validated w/
+                                    <code>Formik</code>
+                                </p>
+                                <a
+                                    href="https://phoenixkarate.net"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                                <p>
+                                    Code:
+                                    <a
+                                        href="https://github.com/ciaranmccullough/phoenix-karate"
+                                        >https://github.com/ciaranmccullough/phoenix-karate</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                </div>
+                <div class="row row-cols-1 row-cols-md-3">
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img
+                                src="img/graph-preview.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h3 class="card-title">nvd3 Graph Real Time</h3>
+                                <p class="card-text">
+                                    A nvd3 graph utilising <code>Node Js</code>,
+                                    and hosted on a
+                                    <code>Firebase</code> real-time database.
+                                </p>
+                                <a
+                                    href="https://ciaranmccullough.github.io/realtime-firebase-nvd3/"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                                <p>
+                                    Code:
+                                    <a
+                                        href="https://github.com/ciaranmccullough/realtime-firebase-nvd3"
+                                        >https://github.com/ciaranmccullough/realtime-firebase-nvd3</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <p
+                                class="codepen"
+                                data-height="265"
+                                data-theme-id="default"
+                                data-default-tab="result"
+                                data-user="ciaran-mc"
+                                data-slug-hash="pogjyPK"
+                                style="
+                                    height: 265px;
+                                    box-sizing: border-box;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border: 2px solid;
+                                    margin: 1em 0;
+                                    padding: 1em;
+                                "
+                                data-pen-title="React Weather App w/ geolocation"
+                            >
+                                <span
+                                    >See the Pen
+                                    <a
+                                        href="https://codepen.io/ciaran-mc/pen/pogjyPK"
+                                    >
+                                        React Weather App w/ geolocation</a
+                                    >
+                                    by Ciaran-Mc (<a
+                                        href="https://codepen.io/ciaran-mc"
+                                        >@ciaran-mc</a
+                                    >) on
+                                    <a href="https://codepen.io">CodePen</a
+                                    >.</span
+                                >
+                            </p>
+                            <script
+                                async
+                                src="https://static.codepen.io/assets/embed/ei.js"
+                            ></script>
+                            <div class="card-body">
+                                <h3 class="card-title">
+                                    React App w/ geolocation
+                                </h3>
+                                <p class="card-text">
+                                    Built with <code>React</code> Js, the
+                                    geolocation api automatically finds the
+                                    user's position to render an eight day
+                                    weather report.
+                                </p>
+                                <a
+                                    href="https://codepen.io/ciaran-mc/pen/pogjyPK?editors=0010"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <p
+                                class="codepen"
+                                data-height="265"
+                                data-theme-id="light"
+                                data-default-tab="result"
+                                data-user="ciaran-mc"
+                                data-slug-hash="oNzrNrQ"
+                                style="
+                                    height: 265px;
+                                    box-sizing: border-box;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border: 2px solid;
+                                    margin: 1em 0;
+                                    padding: 1em;
+                                "
+                                data-pen-title="GSAP DEMO"
+                            >
+                                <span
+                                    >See the Pen
+                                    <a
+                                        href="https://codepen.io/ciaran-mc/pen/oNzrNrQ"
+                                    >
+                                        GSAP DEMO</a
+                                    >
+                                    by Ciaran-Mc (<a
+                                        href="https://codepen.io/ciaran-mc"
+                                        >@ciaran-mc</a
+                                    >) on
+                                    <a href="https://codepen.io">CodePen</a
+                                    >.</span
+                                >
+                            </p>
+                            <script
+                                async
+                                src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+                            ></script>
+                            <div class="card-body">
+                                <h3 class="card-title">Greensock Demo</h3>
+                                <p class="card-text">
+                                    Using the <code>GSAP</code> API to create
+                                    animations with <code>JavaScript</code>, to
+                                    take advantage of chaining the order of
+                                    animations, events and better performance
+                                    over basic <code>CSS</code> animations.
+                                </p>
+                                <a
+                                    href="https://codepen.io/ciaran-mc/pen/oNzrNrQ"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                </div>
+                <div class="row row-cols-1 row-cols-md-3">
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <p
+                                class="codepen"
+                                data-height="265"
+                                data-theme-id="default"
+                                data-default-tab="result"
+                                data-user="ciaran-mc"
+                                data-slug-hash="yLYvPby"
+                                style="
+                                    height: 265px;
+                                    box-sizing: border-box;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border: 2px solid;
+                                    margin: 1em 0;
+                                    padding: 1em;
+                                "
+                                data-pen-title="Current Weather API"
+                            >
+                                <span
+                                    >See the Pen
+                                    <a
+                                        href="https://codepen.io/ciaran-mc/pen/yLYvPby"
+                                    >
+                                        Current Weather API</a
+                                    >
+                                    by Ciaran-Mc (<a
+                                        href="https://codepen.io/ciaran-mc"
+                                        >@ciaran-mc</a
+                                    >) on
+                                    <a href="https://codepen.io">CodePen</a
+                                    >.</span
+                                >
+                            </p>
+                            <script
+                                async
+                                src="https://static.codepen.io/assets/embed/ei.js"
+                            ></script>
+                            <div class="card-body">
+                                <h3 class="card-title">AJAX App</h3>
+                                <p class="card-text">
+                                    Using the Weather API, the user inputs data
+                                    to find out the weather locally in their
+                                    city & state. Written in vanilla
+                                    <code>JavaScript</code>.
+                                </p>
+                                <a
+                                    href="https://codepen.io/ciaran-mc/pen/yLYvPby"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <p
+                                class="codepen"
+                                data-height="265"
+                                data-theme-id="default"
+                                data-default-tab="result"
+                                data-user="ciaran-mc"
+                                data-slug-hash="mdeLqxq"
+                                style="
+                                    height: 265px;
+                                    box-sizing: border-box;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border: 2px solid;
+                                    margin: 1em 0;
+                                    padding: 1em;
+                                "
+                                data-pen-title="Lyrics API"
+                            >
+                                <span
+                                    >See the Pen
+                                    <a
+                                        href="https://codepen.io/ciaran-mc/pen/mdeLqxq"
+                                    >
+                                        Lyrics API</a
+                                    >
+                                    by Ciaran-Mc (<a
+                                        href="https://codepen.io/ciaran-mc"
+                                        >@ciaran-mc</a
+                                    >) on
+                                    <a href="https://codepen.io">CodePen</a
+                                    >.</span
+                                >
+                            </p>
+                            <script
+                                async
+                                src="https://static.codepen.io/assets/embed/ei.js"
+                            ></script>
+                            <div class="card-body">
+                                <h3 class="card-title">JavaScript App (API)</h3>
+                                <p class="card-text">
+                                    A fun application which takes user inputs to
+                                    call the lyrics API, and render the
+                                    resulting lyrics via the DOM. Written in
+                                    vanilla <code>JavaScript</code>.
+                                </p>
+                                <a
+                                    href="https://codepen.io/ciaran-mc/pen/mdeLqxq"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <p
+                                class="codepen"
+                                data-height="265"
+                                data-theme-id="light"
+                                data-default-tab="result"
+                                data-user="ciaran-mc"
+                                data-slug-hash="zYvamaL"
+                                style="
+                                    height: 265px;
+                                    box-sizing: border-box;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border: 2px solid;
+                                    margin: 1em 0;
+                                    padding: 1em;
+                                "
+                                data-pen-title="WorkoutsApp"
+                            >
+                                <span
+                                    >See the Pen
+                                    <a
+                                        href="https://codepen.io/ciaran-mc/pen/zYvamaL"
+                                    >
+                                        WorkoutsApp</a
+                                    >
+                                    by Ciaran-Mc (<a
+                                        href="https://codepen.io/ciaran-mc"
+                                        >@ciaran-mc</a
+                                    >) on
+                                    <a href="https://codepen.io">CodePen</a
+                                    >.</span
+                                >
+                            </p>
+                            <script
+                                async
+                                src="https://static.codepen.io/assets/embed/ei.js"
+                            ></script>
+                            <div class="card-body">
+                                <h3 class="card-title">JavaScript DOM App</h3>
+                                <p class="card-text">
+                                    A 'CRUD' application designed with vanilla
+                                    <code>JavaScript</code>, which adds,
+                                    removes, updates and deletes user input
+                                    based on thier workout choices, and
+                                    calculates the total calories burned during
+                                    that workout.
+                                </p>
+                                <a
+                                    href="https://codepen.io/ciaran-mc/pen/zYvamaL"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3">
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <p
+                                class="codepen"
+                                data-height="265"
+                                data-theme-id="light"
+                                data-default-tab="js,result"
+                                data-user="ciaran-mc"
+                                data-slug-hash="WNrqwaK"
+                                style="
+                                    height: 265px;
+                                    box-sizing: border-box;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border: 2px solid;
+                                    margin: 1em 0;
+                                    padding: 1em;
+                                "
+                                data-pen-title="PP1 - Console App = Stockist"
+                            >
+                                <span
+                                    >See the Pen
+                                    <a
+                                        href="https://codepen.io/ciaran-mc/pen/WNrqwaK"
+                                    >
+                                        PP1 - Console App = Stockist</a
+                                    >
+                                    by Ciaran-Mc (<a
+                                        href="https://codepen.io/ciaran-mc"
+                                        >@ciaran-mc</a
+                                    >) on
+                                    <a href="https://codepen.io">CodePen</a
+                                    >.</span
+                                >
+                            </p>
+                            <script
+                                async
+                                src="https://static.codepen.io/assets/embed/ei.js"
+                            ></script>
+                            <div class="card-body">
+                                <h3 class="card-title">
+                                    JavaScript Console App
+                                </h3>
+                                <p class="card-text">
+                                    <code>JavaScript</code> app using MVC
+                                    principle, that models stock and stock
+                                    items, creating, reading, updating and
+                                    deleting items from a stock list.
+                                </p>
+                                <a
+                                    href="https://codepen.io/ciaran-mc/pen/WNrqwaK?editors=0010"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                            </div>
+                        </div>
+                    </div>
 
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/form-preview.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h3 class="card-title">Serverless Form</h3>
-                <p class="card-text">
-                  A <code>HTML5</code> form hosted on <code> Netlify</code>, and
-                  hooked up to Gmail utilising a 'zap' via <code>Zapier</code>.
-                  This will send you an email automatically containing your
-                  message, demonstrating the enormous potenital of automated
-                  form handling.
-                </p>
-                <a
-                  href="https://hungry-meitner-b629da.netlify.app/"
-                  class="btn btn-success"
-                  >Check It Out</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <img
-                src="./img/lab39-preview.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h3 class="card-title">One page HTML/CSS/JS Website</h3>
-                <p class="card-text">
-                  A simple one page website for a company in private dental
-                  sector, making use of CSS3 <code>grid</code>,
-                  <code>flexbox</code> and vanilla Javascript responsive navbar,
-                  smooth scrolling and lazy loading images.
-                </p>
-                <!-- Link to Github! -->
-                <a href="http://lab39.co.uk/" class="btn btn-success"
-                  >Check It Out</a
-                >
-                <p>
-                  Code:
-                  <a href="https://github.com/ciaranmccullough/lab_39"
-                    >https://github.com/ciaranmccullough/lab_39</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- New Row -->
-        <div class="row row-cols-1 row-cols-md-3">
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <img
-                src="./img/rough-trade-preview.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h3 class="card-title">CSS3 website</h3>
-                <p class="card-text">
-                  A copy website using CSS3 ONLY. Designed 'mobile-first'
-                  utlising
-                  <code>media queries </code>and CSS3 <code>flexbox</code>.
-                </p>
-                <!-- Link to Rough Trade GitHub! -->
-                <a
-                  href="https://ciaranmccullough.github.io/rough-trade/"
-                  class="btn btn-success"
-                  >Check It Out</a
-                >
-                <p>
-                  Code:
-                  <a href="https://github.com/ciaranmccullough/rough-trade"
-                    >https://github.com/ciaranmccullough/rough-trade</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <!-- <img
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img
+                                src="img/form-preview.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h3 class="card-title">Serverless Form</h3>
+                                <p class="card-text">
+                                    A <code>HTML5</code> form hosted on
+                                    <code> Netlify</code>, and hooked up to
+                                    Gmail utilising a 'zap' via
+                                    <code>Zapier</code>. This will send you an
+                                    email automatically containing your message,
+                                    demonstrating the enormous potenital of
+                                    automated form handling.
+                                </p>
+                                <a
+                                    href="https://hungry-meitner-b629da.netlify.app/"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img
+                                src="./img/lab39-preview.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h3 class="card-title">
+                                    One page HTML/CSS/JS Website
+                                </h3>
+                                <p class="card-text">
+                                    A simple one page website for a company in
+                                    private dental sector, making use of CSS3
+                                    <code>grid</code>, <code>flexbox</code> and
+                                    vanilla Javascript responsive navbar, smooth
+                                    scrolling and lazy loading images.
+                                </p>
+                                <!-- Link to Github! -->
+                                <a
+                                    href="http://lab39.co.uk/"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                                <p>
+                                    Code:
+                                    <a
+                                        href="https://github.com/ciaranmccullough/lab_39"
+                                        >https://github.com/ciaranmccullough/lab_39</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- New Row -->
+                <div class="row row-cols-1 row-cols-md-3">
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img
+                                src="./img/rough-trade-preview.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h3 class="card-title">CSS3 website</h3>
+                                <p class="card-text">
+                                    A copy website using CSS3 ONLY. Designed
+                                    'mobile-first' utlising
+                                    <code>media queries </code>and CSS3
+                                    <code>flexbox</code>.
+                                </p>
+                                <!-- Link to Rough Trade GitHub! -->
+                                <a
+                                    href="https://ciaranmccullough.github.io/rough-trade/"
+                                    class="btn btn-success"
+                                    >Check It Out</a
+                                >
+                                <p>
+                                    Code:
+                                    <a
+                                        href="https://github.com/ciaranmccullough/rough-trade"
+                                        >https://github.com/ciaranmccullough/rough-trade</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <!-- <img
                 src="img/gatsby-preview.png"
                 class="card-img-top"
                 alt="..."
               /> -->
-              <div class="card-body">
-                <h3 class="card-title">Coming soon...</h3>
-                <!-- <p class="card-text">
+                            <div class="card-body">
+                                <h3 class="card-title">Coming soon...</h3>
+                                <!-- <p class="card-text">
                   A blazing-fast statically generated web app using
                   <code>Gatsby</code> pulling data from
                   <code>Wordpress</code> API via a
@@ -645,30 +732,30 @@
                   <code>React Styled Components</code> and <code>Sass</code> and
                   the form validated w/ <code>Formik</code>
                 </p> -->
-                <!-- <a href="https://phoenixkarate.net" class="btn btn-success"
+                                <!-- <a href="https://phoenixkarate.net" class="btn btn-success"
                   >Check It Out</a
                 > -->
-                <!-- <p>
+                                <!-- <p>
                   Code:
                   <a href="https://github.com/ciaranmccullough/phoenix-karate"
                     >https://github.com/ciaranmccullough/phoenix-karate</a
                   >
                 </p> -->
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col mb-4">
-            <div class="card">
-              <!-- <img
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                    <!-- Card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <!-- <img
                 src="img/gatsby-preview.png"
                 class="card-img-top"
                 alt="..."
               /> -->
-              <div class="card-body">
-                <h3 class="card-title">Coming soon...</h3>
-                <!-- <p class="card-text">
+                            <div class="card-body">
+                                <h3 class="card-title">Coming soon...</h3>
+                                <!-- <p class="card-text">
                   A blazing-fast statically generated web app using
                   <code>Gatsby</code> pulling data from
                   <code>Wordpress</code> API via a
@@ -677,103 +764,106 @@
                   <code>React Styled Components</code> and <code>Sass</code> and
                   the form validated w/ <code>Formik</code>
                 </p> -->
-                <!-- <a href="https://phoenixkarate.net" class="btn btn-success"
+                                <!-- <a href="https://phoenixkarate.net" class="btn btn-success"
                   >Check It Out</a
                 > -->
-                <!-- <p>
+                                <!-- <p>
                   Code:
                   <a href="https://github.com/ciaranmccullough/phoenix-karate"
                     >https://github.com/ciaranmccullough/phoenix-karate</a
                   >
                 </p> -->
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-        </div>
-        <!-- End of Row -->
-      </section>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                </div>
+                <!-- End of Row -->
+            </section>
 
-      <section id="skills" class="skills">
-        <h2 class="mt-0">Skills</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-md">
-              <i class="swing fab fa-html5"></i>
-              <h5>HTML5</h5>
-            </div>
-            <div class="col-md">
-              <i class="swing fab fa-css3-alt"></i>
-              <h5>CSS3</h5>
-            </div>
-            <div class="col-md">
-              <i class="swing fab fa-sass"></i>
-              <h5>Sass</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md">
-              <i class="swing fab devicon-bootstrap-plain"></i>
-              <h5>Bootstrap</h5>
-            </div>
-            <div class="col-md">
-              <i class="swing fab fa-js"></i>
-              <h5>JavaScript</h5>
-            </div>
-            <div class="col-md">
-              <i class="swing fab fa-react"></i>
-              <h5>React</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md">
-              <i class="swing fab fa-node-js"></i>
-              <h5>Node.js</h5>
-            </div>
-            <div class="col-md">
-              <i class="swing fab devicon-express-original colored"></i>
-              <h5>Express</h5>
-            </div>
-            <div class="col-md">
-              <i class="swing fab devicon-d3js-plain"></i>
-              <h5>d3js</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md">
-              <i class="swing fab fa-github"></i>
-              <h5>Git</h5>
-            </div>
-            <div class="col-md">
-              <i class="swing fab devicon-postgresql-plain"></i>
-              <h5>PostgreSQL</h5>
-            </div>
-            <div class="col-md">
-              <i class="swing fab devicon-mongodb-plain"></i>
-              <h5>MongoDB</h5>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <!-- Contact -->
-    <footer id="contact">
-      <h2 class="mt-0">Contact</h2>
-      <p>ciaran.mccullough89@gmail.com</p>
-      <!-- <a
+            <section id="skills" class="skills">
+                <h2 class="mt-0">Skills</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md">
+                            <i class="swing fab fa-html5"></i>
+                            <h5>HTML5</h5>
+                        </div>
+                        <div class="col-md">
+                            <i class="swing fab fa-css3-alt"></i>
+                            <h5>CSS3</h5>
+                        </div>
+                        <div class="col-md">
+                            <i class="swing fab fa-sass"></i>
+                            <h5>Sass</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md">
+                            <i class="swing fab devicon-bootstrap-plain"></i>
+                            <h5>Bootstrap</h5>
+                        </div>
+                        <div class="col-md">
+                            <i class="swing fab fa-js"></i>
+                            <h5>JavaScript</h5>
+                        </div>
+                        <div class="col-md">
+                            <i class="swing fab fa-react"></i>
+                            <h5>React</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md">
+                            <i class="swing fab fa-node-js"></i>
+                            <h5>Node.js</h5>
+                        </div>
+                        <div class="col-md">
+                            <i
+                                class="swing fab devicon-express-original colored"
+                            ></i>
+                            <h5>Express</h5>
+                        </div>
+                        <div class="col-md">
+                            <i class="swing fab devicon-d3js-plain"></i>
+                            <h5>d3js</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md">
+                            <i class="swing fab fa-github"></i>
+                            <h5>Git</h5>
+                        </div>
+                        <div class="col-md">
+                            <i class="swing fab devicon-postgresql-plain"></i>
+                            <h5>PostgreSQL</h5>
+                        </div>
+                        <div class="col-md">
+                            <i class="swing fab devicon-mongodb-plain"></i>
+                            <h5>MongoDB</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Contact -->
+        <footer id="contact">
+            <h2 class="mt-0">Contact</h2>
+            <p>ciaran.mccullough89@gmail.com</p>
+            <!-- <a
         href="https://drive.google.com/file/d/1zsCxCh-nJYLWVQEiw7MraxokU_uyGrIM/view?usp=sharing"
         >Download Cv</a -->
-      <div class="social">
-        <a href="https://www.linkedin.com/in/ciaran-mccullough-5347a11b1/"
-          ><i class="swing fab fa-linkedin-in"></i
-        ></a>
-        <a href="https://twitter.com/Ciamcc"
-          ><i class="swing fab fa-twitter"></i
-        ></a>
-        <a href="https://www.instagram.com/ciaranmccullough89/"
-          ><i class="swing fab fa-instagram"></i
-        ></a>
-      </div>
-    </footer>
-  </body>
+            <div class="social">
+                <a
+                    href="https://www.linkedin.com/in/ciaran-mccullough-5347a11b1/"
+                    ><i class="swing fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://twitter.com/Ciamcc"
+                    ><i class="swing fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/ciaranmccullough89/"
+                    ><i class="swing fab fa-instagram"></i
+                ></a>
+            </div>
+        </footer>
+    </body>
 </html>
